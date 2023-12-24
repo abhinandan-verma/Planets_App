@@ -46,6 +46,7 @@ public class MyCustomAdapter extends ArrayAdapter<Planet> {
                     false
             );
             //finding Views:
+            //
             myViewHolder.planetName = (TextView)convertView.findViewById(R.id.planetName);
         myViewHolder.moonCount = (TextView) convertView.findViewById(R.id.moon_name);
         myViewHolder.planetImg = (ImageView) convertView.findViewById(R.id.imageView);
